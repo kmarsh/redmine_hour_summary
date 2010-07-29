@@ -9,4 +9,8 @@ class HourSummaryController < ApplicationController
     render :layout => false
   end
   
+  def check_if_login_required
+    return true
+  end
+  
 end
